@@ -70,6 +70,7 @@ accessibility-assistant/
    http://127.0.0.1:5000
 
 
+
    ## Testing
 
 The application was manually tested to verify that the main accessibility and AI features work correctly.
