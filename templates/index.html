@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accessibility Assistant</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+
+    <h1>Accessibility Assistent</h1>
+
+    <p>
+        Make the web easier to see and read.
+    </p>
+
+    <h2>Choose an Accessibility mode</h2>
+
+    <button id="large-text-btn">Large Text</button>
+    <button id="high-contrast-btn">High Contrast</button> 
+    <button id="color-vision-btn">Color Vision Mode</button>
+    <button id="reset-btn">Reset</button>
+
+    <div class="demo-content">
+    <h2>Example Content</h2>
+
+    <p>
+        This is an example text used to demonstrate
+        the accessibility features.
+    </p>
+
+    <p>
+        Try the different modes above and see how
+        the content changes.
+    </p>
+</div>
+
+<div class="ai-assistant">
+    <h2>AI Accessibility Assistant</h2>
+    
+
+    <p>
+        Ask AI to explain how an accessibility feature can help.
+    </p>
+
+    <textarea id="ai-question" placeholder="Ask a question about web accessibility"></textarea>
+
+    <button id="ask-ai-btn">Ask AI</button>
+
+    <p id="ai-response">
+        AI response will appear here.
+    </p>
+</div>
+
+<script src="{{url_for('static', filename='script.js')}}"></script>
+
+</body>
+
+</html>
